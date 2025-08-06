@@ -9,13 +9,13 @@ import { ProductToCreate } from "@/types/product";
 // - test_mode (based on your API key)
 export const products: ProductToCreate[] = [
   {
-    name: "Fitness Resistance Bands",
+    name: "FlexDemo v3 - Premium Resistance Bands Set",
     description:
       "Professional grade resistance bands for physical therapy and exercise.",
     upc_code: "123456789012",
     gtin: "01234567890123",
     visit_type: "fitness",
-    hsa_fsa_eligibility: "eligible",
+    hsa_fsa_eligibility: "auto_substantiation",
     metadata: {
       category: "Fitness",
     },
@@ -23,13 +23,13 @@ export const products: ProductToCreate[] = [
     image: "/next.svg",
   },
   {
-    name: "Digital Blood Pressure Monitor",
+    name: "FlexDemo v3 - Smart Blood Pressure Monitor",
     description:
       "FDA approved digital blood pressure monitor with memory storage.",
     upc_code: "234567890123",
     gtin: "12345678901234",
-    visit_type: "wellness",
-    hsa_fsa_eligibility: "eligible",
+    visit_type: "fitness",
+    hsa_fsa_eligibility: "auto_substantiation",
     metadata: {
       category: "Health Monitoring",
     },
@@ -37,12 +37,12 @@ export const products: ProductToCreate[] = [
     image: "/next.svg",
   },
   {
-    name: "Yoga Mat with Alignment Lines",
+    name: "FlexDemo v3 - Therapeutic Yoga Mat",
     description: "Premium yoga mat designed for physical therapy and exercise.",
     upc_code: "345678901234",
     gtin: "23456789012345",
     visit_type: "fitness",
-    hsa_fsa_eligibility: "lomn_required",
+    hsa_fsa_eligibility: "letter_of_medical_necessity",
     metadata: {
       category: "Fitness",
     },
@@ -50,12 +50,12 @@ export const products: ProductToCreate[] = [
     image: "/next.svg",
   },
   {
-    name: "Sunscreen SPF 50",
+    name: "FlexDemo v3 - Medical Grade Sunscreen SPF 50",
     description: "Broad spectrum sunscreen protection, HSA/FSA eligible.",
     upc_code: "456789012345",
     gtin: "34567890123456",
-    visit_type: "wellness",
-    hsa_fsa_eligibility: "eligible",
+    visit_type: "fitness",
+    hsa_fsa_eligibility: "auto_substantiation",
     metadata: {
       category: "Personal Care",
     },
